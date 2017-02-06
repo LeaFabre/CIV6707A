@@ -32,7 +32,7 @@ function conversionSecondes(a){ //convertit hh:mm:ss en secondes
   var b=heures+minutes+secondes;
   return b;
 }
-
+//blablabla
 function comparaison(connexion1,connexion2){ //compare les heures de départ de deux connexions 
   if (connexion1.departureTime < connexion2.departureTime){
     return -1;
