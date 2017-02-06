@@ -26,9 +26,9 @@ function Connexion(i){
 }
 
 function conversionSecondes(a){ //convertit hh:mm:ss en secondes 
-  var heures=float(a.substring(0,2))*3600;
-  var minutes=float(a.substring(3,5))*60;
-  var secondes=float(a.substring(6,8));
+  var heures=float(a.substring(0,2))*3600; //est-ce que les substring ne devraient pas être (0, 1),
+  var minutes=float(a.substring(3,5))*60; // (3, 4) et
+  var secondes=float(a.substring(6,8)); // (6, 7) ?
   var b=heures+minutes+secondes;
   return b;
 }
